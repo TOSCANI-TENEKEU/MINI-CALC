@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Nav -->
+    <nav>
+      <p>Calculator</p>
+    </nav>
+
+    <!-- Sub-container -->
+    <div class="sub-container">
+
+      <!--Sidebar -->
+      <div class="sidebar">
+        <p>History</p>
+        <ul id="history-list">
+          <!-- List item will be created here using javascirpt -->
+        </ul>
+      </div>
+
+      <!-- Calculator -->
+      <div class="calc-container">
+        <div class="calc">
+          <input id="display" type="text" readonly value="abc" class="on-off">
+          <div class="btn-container">
+            <button type="button" value="ON" id="ON">ON</button>
+            <button type="button" value="OFF" id="OFF">OFF</button>
+            <button type="button" value="CLEAR ALL" id="CLEAR-ALL">CLEAR ALL</button>
+            <button type="button" value="DELETE" id="DELETE">DELETE</button>
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+            <button type="button" value="+" id="addi">+</button>
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" value="-" id="sous">-</button>
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" value="/" id="divi">/</button>
+            <button type="button" value="0">0</button>
+            <button type="button" value=".">.</button>
+            <button type="button" value="=" id="equal">=</button>
+            <button type="button" value="*" id="multi">*</button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <!-- Custom scripts -->
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
